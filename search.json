@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GPU-accelerated Computing in Bioconductor",
+    "section": "",
+    "text": "This site automatically tracks GitHub repositories associated with CZI EOSS 6 GPU-accelerated Computing in Bioconductor to the CUNY Graduate School of Public Health and Health Policy.\nLeads: Levi Waldron, Davide Risso\nCollaborators: Gabriele Sales"
+  },
+  {
+    "objectID": "index.html#navigation",
+    "href": "index.html#navigation",
+    "title": "GPU-accelerated Computing in Bioconductor",
+    "section": "Navigation",
+    "text": "Navigation\n\nOverview: Project abstract\nProjects: A table of all repositories found for the tracked topic.\nRecent Commits: A blog-style feed of the latest commits from all listed projects.\nSlides"
+  },
+  {
+    "objectID": "index.html#relevance-to-public-health",
+    "href": "index.html#relevance-to-public-health",
+    "title": "GPU-accelerated Computing in Bioconductor",
+    "section": "Relevance to Public Health",
+    "text": "Relevance to Public Health\nThe large number of software packages (&gt;2,100), community developers (&gt;1,900), annual installations (&gt;10 million unique IP addresses), and full-text citations in PubMed (&gt; 67,000 to date) highlight the value of Bioconductor to biomedical research and its use in clinical practice. The latest advancements in experimental techniques for high-throughput biology have led to a marked increase in the heterogeneity and complexity of analytical approaches; prime examples are single-cell multi-omics and imaging-based assays, often consisting of terabytes of raw data. GPU computing has emerged as a clear enabler in certain fields of science, such as large language models and protein structure prediction, for which it provides essential improvements over the traditional paradigm of single-threaded CPU-based analysis. Unfortunately, GPU adoption in the context of omics sciences is lagging behind. It is thus paramount to provide an approachable platform to test the reliability of code run on GPUs (Aim 1) and to ship software packages that work on a variety of systems even in the presence of complex system-level dependencies (Aim 2). Finally, a set of foundational packages and data structures natively supporting GPU computations (Aim 3) represent an essential prerequisite for the development of new, fast approaches to the analysis of high-throughput biomedical data, such as single-cell and spatial omics.\n\nAcknowledgements\nThis website is based on https://waldronlab.io/ITCR-bioconductor/ and the Public Microbiome Project."
+  },
+  {
+    "objectID": "commits.html",
+    "href": "commits.html",
+    "title": "Recent Commits",
+    "section": "",
+    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
+  },
+  {
     "objectID": "overview.html",
     "href": "overview.html",
     "title": "Overview",
@@ -28,11 +56,25 @@
     "text": "Footnotes\n\n\nBioconductor Build System repository↩︎\nBioconductor Build System Report↩︎"
   },
   {
-    "objectID": "commits.html",
-    "href": "commits.html",
-    "title": "Recent Commits",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
+    "text": "Projects in GitHub with the topic czieoss6-biocgpu."
+  },
+  {
+    "objectID": "projects.html#support-for-maintainers",
+    "href": "projects.html#support-for-maintainers",
+    "title": "Projects",
+    "section": "Support for maintainers",
+    "text": "Support for maintainers\nThe grant funded work to create a new Bioconductor build system (BBS) report for GPU-capable software packages running on machines at the University of Padova, the Dana Farber Cancer Institute, and Jetstream2:\n\ndevel BBS GPU Report\nrelease BBS GPU Report\n\nBioconductor package maintainers can who have packages capable of using GPUs can opt in to the build report by adding a .BBSoptions file with GPU_reliance: required or GPU_reliance: optional as described in the contributions guide."
+  },
+  {
+    "objectID": "projects.html#support-for-users",
+    "href": "projects.html#support-for-users",
+    "title": "Projects",
+    "section": "Support for users",
+    "text": "Support for users\nAdditionally, users can search for packages tagged as GPU in biocViews."
   },
   {
     "objectID": "slides.html#purpose",
@@ -96,47 +138,5 @@
     "title": "GPU-accelerated Computing in Bioconductor",
     "section": "Aim 3: Foundational packages for GPU programming",
     "text": "Aim 3: Foundational packages for GPU programming\n\nExtend Bioconductor data structures to integrate GPU processing.\nImplement a CUDA backend for common operations in single-cell omics applicable to both dense and sparse matrices.\nBest practices for Bioconductor package maintainers and users."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "GPU-accelerated Computing in Bioconductor",
-    "section": "",
-    "text": "This site automatically tracks GitHub repositories associated with CZI EOSS 6 GPU-accelerated Computing in Bioconductor to the CUNY Graduate School of Public Health and Health Policy.\nLeads: Levi Waldron, Davide Risso\nCollaborators: Gabriele Sales"
-  },
-  {
-    "objectID": "index.html#navigation",
-    "href": "index.html#navigation",
-    "title": "GPU-accelerated Computing in Bioconductor",
-    "section": "Navigation",
-    "text": "Navigation\n\nOverview: Project abstract\nProjects: A table of all repositories found for the tracked topic.\nRecent Commits: A blog-style feed of the latest commits from all listed projects.\nSlides"
-  },
-  {
-    "objectID": "index.html#relevance-to-public-health",
-    "href": "index.html#relevance-to-public-health",
-    "title": "GPU-accelerated Computing in Bioconductor",
-    "section": "Relevance to Public Health",
-    "text": "Relevance to Public Health\nThe large number of software packages (&gt;2,100), community developers (&gt;1,900), annual installations (&gt;10 million unique IP addresses), and full-text citations in PubMed (&gt; 67,000 to date) highlight the value of Bioconductor to biomedical research and its use in clinical practice. The latest advancements in experimental techniques for high-throughput biology have led to a marked increase in the heterogeneity and complexity of analytical approaches; prime examples are single-cell multi-omics and imaging-based assays, often consisting of terabytes of raw data. GPU computing has emerged as a clear enabler in certain fields of science, such as large language models and protein structure prediction, for which it provides essential improvements over the traditional paradigm of single-threaded CPU-based analysis. Unfortunately, GPU adoption in the context of omics sciences is lagging behind. It is thus paramount to provide an approachable platform to test the reliability of code run on GPUs (Aim 1) and to ship software packages that work on a variety of systems even in the presence of complex system-level dependencies (Aim 2). Finally, a set of foundational packages and data structures natively supporting GPU computations (Aim 3) represent an essential prerequisite for the development of new, fast approaches to the analysis of high-throughput biomedical data, such as single-cell and spatial omics.\n\nAcknowledgements\nThis website is based on https://waldronlab.io/ITCR-bioconductor/ and the Public Microbiome Project."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects in GitHub with the topic czieoss6-biocgpu."
-  },
-  {
-    "objectID": "projects.html#support-for-maintainers",
-    "href": "projects.html#support-for-maintainers",
-    "title": "Projects",
-    "section": "Support for maintainers",
-    "text": "Support for maintainers\nThe grant funded work to create a new Bioconductor build system (BBS) report for GPU-capable software packages running on machines at the University of Padova, the Dana Farber Cancer Institute, and Jetstream2:\n\ndevel BBS GPU Report\nrelease BBS GPU Report\n\nBioconductor package maintainers can who have packages capable of using GPUs can opt in to the build report by adding a .BBSoptions file with GPU_reliance: required or GPU_reliance: optional as described in the contributions guide."
-  },
-  {
-    "objectID": "projects.html#support-for-users",
-    "href": "projects.html#support-for-users",
-    "title": "Projects",
-    "section": "Support for users",
-    "text": "Support for users\nAdditionally, users can search for packages tagged as GPU in biocViews."
   }
 ]
