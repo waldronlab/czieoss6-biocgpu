@@ -21,13 +21,6 @@
     "text": "Relevance to Public Health\nThe large number of software packages (&gt;2,100), community developers (&gt;1,900), annual installations (&gt;10 million unique IP addresses), and full-text citations in PubMed (&gt; 67,000 to date) highlight the value of Bioconductor to biomedical research and its use in clinical practice. The latest advancements in experimental techniques for high-throughput biology have led to a marked increase in the heterogeneity and complexity of analytical approaches; prime examples are single-cell multi-omics and imaging-based assays, often consisting of terabytes of raw data. GPU computing has emerged as a clear enabler in certain fields of science, such as large language models and protein structure prediction, for which it provides essential improvements over the traditional paradigm of single-threaded CPU-based analysis. Unfortunately, GPU adoption in the context of omics sciences is lagging behind. It is thus paramount to provide an approachable platform to test the reliability of code run on GPUs (Aim 1) and to ship software packages that work on a variety of systems even in the presence of complex system-level dependencies (Aim 2). Finally, a set of foundational packages and data structures natively supporting GPU computations (Aim 3) represent an essential prerequisite for the development of new, fast approaches to the analysis of high-throughput biomedical data, such as single-cell and spatial omics.\n\nAcknowledgements\nThis website is based on https://waldronlab.io/ITCR-bioconductor/ and the Public Microbiome Project."
   },
   {
-    "objectID": "commits.html",
-    "href": "commits.html",
-    "title": "Recent Commits",
-    "section": "",
-    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
-  },
-  {
     "objectID": "overview.html",
     "href": "overview.html",
     "title": "Overview",
@@ -75,6 +68,13 @@
     "title": "Projects",
     "section": "Support for users",
     "text": "Support for users\nAdditionally, users can search for packages tagged as GPU in biocViews."
+  },
+  {
+    "objectID": "commits.html",
+    "href": "commits.html",
+    "title": "Recent Commits",
+    "section": "",
+    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
   },
   {
     "objectID": "slides.html#purpose",
