@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "commits.html",
+    "href": "commits.html",
+    "title": "Recent Commits",
+    "section": "",
+    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "GPU-accelerated Computing in Bioconductor",
@@ -47,34 +54,6 @@
     "title": "Overview",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nBioconductor Build System repository↩︎\nBioconductor Build System Report↩︎"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects in GitHub with the topic czieoss6-biocgpu."
-  },
-  {
-    "objectID": "projects.html#support-for-maintainers",
-    "href": "projects.html#support-for-maintainers",
-    "title": "Projects",
-    "section": "Support for maintainers",
-    "text": "Support for maintainers\nThe grant funded work to create a new Bioconductor build system (BBS) report for GPU-capable software packages running on machines at the University of Padova, the Dana Farber Cancer Institute, and Jetstream2:\n\ndevel BBS GPU Report\nrelease BBS GPU Report\n\nBioconductor package maintainers can who have packages capable of using GPUs can opt in to the build report by adding a .BBSoptions file with GPU_reliance: required or GPU_reliance: optional as described in the contributions guide."
-  },
-  {
-    "objectID": "projects.html#support-for-users",
-    "href": "projects.html#support-for-users",
-    "title": "Projects",
-    "section": "Support for users",
-    "text": "Support for users\nAdditionally, users can search for packages tagged as GPU in biocViews."
-  },
-  {
-    "objectID": "commits.html",
-    "href": "commits.html",
-    "title": "Recent Commits",
-    "section": "",
-    "text": "Most recent 30 commits for each repository in GitHub with the topic czieoss6-biocgpu updated daily."
   },
   {
     "objectID": "slides.html#purpose",
@@ -138,5 +117,26 @@
     "title": "GPU-accelerated Computing in Bioconductor",
     "section": "Aim 3: Foundational packages for GPU programming",
     "text": "Aim 3: Foundational packages for GPU programming\n\nExtend Bioconductor data structures to integrate GPU processing.\nImplement a CUDA backend for common operations in single-cell omics applicable to both dense and sparse matrices.\nBest practices for Bioconductor package maintainers and users."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects in GitHub with the topic czieoss6-biocgpu."
+  },
+  {
+    "objectID": "projects.html#support-for-maintainers",
+    "href": "projects.html#support-for-maintainers",
+    "title": "Projects",
+    "section": "Support for maintainers",
+    "text": "Support for maintainers\nThe grant funded work to create a new Bioconductor build system (BBS) report for GPU-capable software packages running on machines at the University of Padova, the Dana Farber Cancer Institute, and Jetstream2:\n\ndevel BBS GPU Report\nrelease BBS GPU Report\n\nBioconductor package maintainers can who have packages capable of using GPUs can opt in to the build report by adding a .BBSoptions file with GPU_reliance: required or GPU_reliance: optional as described in the contributions guide."
+  },
+  {
+    "objectID": "projects.html#support-for-users",
+    "href": "projects.html#support-for-users",
+    "title": "Projects",
+    "section": "Support for users",
+    "text": "Support for users\nAdditionally, users can search for packages tagged as GPU in biocViews."
   }
 ]
